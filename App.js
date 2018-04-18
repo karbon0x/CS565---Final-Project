@@ -4,11 +4,11 @@ import HomeScreen from './src/components/HomeScreen'
 import LoginScreen from './src/components/LoginScreen'
 import { SafeAreaView, StyleSheet, Text, View, Image, Button, ImageBackground} from 'react-native';
 const img = require('./src/static/images/background.jpg');
-  
+
 export default class App extends React.Component {
   render() {
     return <RootStack />;
-  } 
+  }
 }
 
 
@@ -20,10 +20,7 @@ const RootStack = TabNavigator(
     },
     Details: {
       screen: LoginScreen,
-    },  
-  },
-  {
-   tabBarComponent: () => null,
+    },
   }
 );
 
