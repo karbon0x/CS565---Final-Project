@@ -4,9 +4,13 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Assets.car</key>
+		<data>
+		RhCBUmKmzhUcrPh3XpjEr+/sSIU=
+		</data>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		+lSSqa3/JXzIdGQ/oTOJqO2mq10=
+		PXn/5CmwjFA/GcvBn1RU3cv2bXI=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -63,7 +67,7 @@
 		</data>
 		<key>PlugIns/finalProjectTests.xctest.dSYM/Contents/Resources/DWARF/finalProjectTests</key>
 		<data>
-		WJ9irRMTSvqJq4JDFuPc23TkadM=
+		Vx3z94CksZb5WWE9odjaxSDbGXk=
 		</data>
 		<key>PlugIns/finalProjectTests.xctest/Info.plist</key>
 		<data>
@@ -75,20 +79,31 @@
 		</data>
 		<key>PlugIns/finalProjectTests.xctest/finalProjectTests</key>
 		<data>
-		TJsUYms6DVRC2AH8ri4tuI23Tn8=
+		Eydq/SGsrqAMFhASEk16hFwuiow=
 		</data>
 	</dict>
 	<key>files2</key>
 	<dict>
+		<key>Assets.car</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RhCBUmKmzhUcrPh3XpjEr+/sSIU=
+			</data>
+			<key>hash2</key>
+			<data>
+			b2PM3q1dh0fb9437hotJ0sEoSmgNuM9IqVLLkJ3JPtQ=
+			</data>
+		</dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			+lSSqa3/JXzIdGQ/oTOJqO2mq10=
+			PXn/5CmwjFA/GcvBn1RU3cv2bXI=
 			</data>
 			<key>hash2</key>
 			<data>
-			W4nROMtcB7N3zGD68KGrvlsbPdfejNruWVK8CLwlCnU=
+			nTVoWAluc8u4fET6I7URU71/UYD8Qy1644szmsj8tTw=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -207,11 +222,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WJ9irRMTSvqJq4JDFuPc23TkadM=
+			Vx3z94CksZb5WWE9odjaxSDbGXk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Wxiv5iqNI5ccgBBR+CGHbOAhFuytkbpAAnxqKIs42HQ=
+			0roA6Col0J/tbdm0S9/O25pNTPaOILTgq2uNzgnt8oA=
 			</data>
 		</dict>
 		<key>PlugIns/finalProjectTests.xctest/Info.plist</key>
@@ -240,11 +255,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			TJsUYms6DVRC2AH8ri4tuI23Tn8=
+			Eydq/SGsrqAMFhASEk16hFwuiow=
 			</data>
 			<key>hash2</key>
 			<data>
-			urCui2mU1erRVK3eEt9B5ZSOPnXZEmtYOs9N16WPcoI=
+			cfUy9778lqRB9bkvpcJVpWgWZpKZYjHJlL0DptOeWCs=
 			</data>
 		</dict>
 	</dict>
