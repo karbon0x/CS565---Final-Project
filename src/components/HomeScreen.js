@@ -7,14 +7,13 @@ const img = require('../../src/static/images/background.jpg');
 export default class HomeScreen extends React.Component {
   render() {
     return (
-      <SafeAreaView style={styles.container}> 
+      <SafeAreaView style={styles.container}>
         <ImageBackground  source={require('../../src/static/images/background.jpg')} style={styles.backgroundImage}>
         <Button
           title="Go to Details"
           onPress={() => this.props.navigation.navigate('Details')}
-        />     
+        />
         </ImageBackground>
-   
     </SafeAreaView>
     );
   }

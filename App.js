@@ -21,6 +21,9 @@ const RootStack = TabNavigator(
     Details: {
       screen: LoginScreen,
     },
+  },
+  {
+   tabBarComponent: () => null,
   }
 );
 
