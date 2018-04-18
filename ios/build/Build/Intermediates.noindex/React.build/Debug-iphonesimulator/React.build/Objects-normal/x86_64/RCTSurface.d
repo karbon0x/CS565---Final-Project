@@ -16,10 +16,11 @@ dependencies: \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTShadowView+Layout.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTShadowView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTRootView.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTLayout.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTRootView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceDelegate.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceRootShadowViewDelegate.h \
@@ -37,4 +38,5 @@ dependencies: \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTEventDispatcher.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/UIView+React.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Modules/RCTUIManagerObserverCoordinator.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Modules/RCTUIManagerUtils.h

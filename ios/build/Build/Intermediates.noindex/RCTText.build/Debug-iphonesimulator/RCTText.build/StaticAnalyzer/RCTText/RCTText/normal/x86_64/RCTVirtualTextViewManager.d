@@ -27,5 +27,6 @@ dependencies: \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/VirtualText/RCTVirtualTextShadowView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/RCTTextAttributes.h

@@ -28,8 +28,10 @@ dependencies: \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFont.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView+Layout.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTShadowView.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLayout.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerUtils.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManagerObserverCoordinator.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputShadowView.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/BaseText/RCTBaseTextShadowView.h \

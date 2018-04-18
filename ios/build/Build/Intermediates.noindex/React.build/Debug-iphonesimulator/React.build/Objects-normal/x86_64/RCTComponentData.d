@@ -25,4 +25,5 @@ dependencies: \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/UIView+React.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTParserUtils.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTShadowView.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTLayout.h \
   /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTRootView.h
