@@ -6,6 +6,10 @@ import AnimatedLinearGradient, {presetColors} from 'react-native-animated-linear
 
 
 export default class Login extends React.Component {
+  HandlePress = () => {
+    this.props.navigation.navigate('CarouselView');
+  }
+
   render() {
     return (
       // <LinearGradient colors={['#5C258D', '#4389A2']} style={styles.linearGradient}>
@@ -19,7 +23,7 @@ export default class Login extends React.Component {
           <Text style={styles.title}>Door to a happy living</Text>
         </View>
         <View style={styles.formContainer}>
-          <LoginForm/>
+          <LoginForm onPress={this.HandlePress}/>
         </View>
         </KeyboardAvoidingView>
       // </LinearGradient>

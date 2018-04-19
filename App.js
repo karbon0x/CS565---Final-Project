@@ -1,16 +1,25 @@
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-import Splash from './src/components/Splash';
 import Login from './src/components/Login';
+import Carousel from './src/components/Carousel';
+import { TabNavigator } from 'react-navigation';
 
 export default class App extends React.Component {
   render() {
     return (
-      // <Splash/>
-      <Login/>
+      <RootStack />
     );
   }
 }
+
+const RootStack = TabNavigator({
+  HomeView: { screen: Login },
+  CarouselView: { screen: Carousel },
+},
+  {
+   tabBarComponent: () => null,
+  }
+);
 
 const styles = StyleSheet.create({
   container: {

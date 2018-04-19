@@ -24,7 +24,9 @@ export default class LoginForm extends React.Component {
           ref={(i) => this.enterPassword = i}/>
 
         <TouchableOpacity style={styles.buttonContainer}>
-          <Text style={styles.button}>SIGN UP/LOGIN</Text>
+          <Text
+            style={styles.button}
+            onPress={this.props.onPress}>SIGN UP/LOGIN</Text>
         </TouchableOpacity>
       </View>
     );
