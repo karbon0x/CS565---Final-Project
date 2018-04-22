@@ -6,7 +6,7 @@
 	<dict>
 		<key>Base.lproj/LaunchScreen.nib</key>
 		<data>
-		sPWo0vGTUff+DCHvfgJrxD+WPn0=
+		hQw2N9a4mkpK2Qg+x4Z5sTozc64=
 		</data>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
 		<data>
@@ -51,7 +51,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		OzGflDFERTqWzuyUSezMYLtxQl8=
+		4tw8XdBPAp/3F+UcolPcFYHRnXk=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -63,19 +63,19 @@
 		</data>
 		<key>PlugIns/finalProjectTests.xctest.dSYM/Contents/Resources/DWARF/finalProjectTests</key>
 		<data>
-		gbvTQDlqhwrerOEyrcnD36oOu78=
+		XL/b610O6SUJpm6boRdGyWyIlZY=
 		</data>
 		<key>PlugIns/finalProjectTests.xctest/Info.plist</key>
 		<data>
-		SIvE5rvj/VTtg/O/HoCX+W1jVX0=
+		WD8syPgdpxfn7kPURLw8MGPf+7o=
 		</data>
 		<key>PlugIns/finalProjectTests.xctest/_CodeSignature/CodeResources</key>
 		<data>
-		S7lOPPDHeAKWdBz8i0SFDrlwycM=
+		7IH2cJoDnkTt21xK/L1US6ia6Ng=
 		</data>
 		<key>PlugIns/finalProjectTests.xctest/finalProjectTests</key>
 		<data>
-		gkvVD+5iwjydCqqJA0PM/BcIbng=
+		mKcU7U+JkDK2U3lFwou2cZ2IbrQ=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -84,11 +84,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			sPWo0vGTUff+DCHvfgJrxD+WPn0=
+			hQw2N9a4mkpK2Qg+x4Z5sTozc64=
 			</data>
 			<key>hash2</key>
 			<data>
-			qBkxug8/Oy7XCE0dFRQimdiIGV6EEilCrzZ+1z9ihCk=
+			+0p1OtxGEURZAyK6ONMPlF6R3OOQXRamOxw+icnoBDk=
 			</data>
 		</dict>
 		<key>Frameworks/IDEBundleInjection.framework/IDEBundleInjection</key>
@@ -207,44 +207,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			gbvTQDlqhwrerOEyrcnD36oOu78=
+			XL/b610O6SUJpm6boRdGyWyIlZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			+oqJ8N0FqxcmK/kiaCQhh17Ura1pitPF+zdPrwzq40g=
+			EDJQ/sBrw/0ezs3vvmfC5AvT6l17Xmz8zM6OFsLUmIY=
 			</data>
 		</dict>
 		<key>PlugIns/finalProjectTests.xctest/Info.plist</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			SIvE5rvj/VTtg/O/HoCX+W1jVX0=
+			WD8syPgdpxfn7kPURLw8MGPf+7o=
 			</data>
 			<key>hash2</key>
 			<data>
-			/CvbjWsENkKnvAkESgKCfoSfjmlE09dQ9+JxiK//vIE=
+			D4Ol+fq4rI3uC/kYqTEh2oagw4Bxp6Ry3CS4Wjg6mZI=
 			</data>
 		</dict>
 		<key>PlugIns/finalProjectTests.xctest/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			S7lOPPDHeAKWdBz8i0SFDrlwycM=
+			7IH2cJoDnkTt21xK/L1US6ia6Ng=
 			</data>
 			<key>hash2</key>
 			<data>
-			PRMN3yu5xVq3l4iVnOfQBMU3Lw/uhIF8POPqUQ8Emzs=
+			N1uz4P9pochx/nJ6FEEFxs+/QXm/uonQH6f1vijn3Ng=
 			</data>
 		</dict>
 		<key>PlugIns/finalProjectTests.xctest/finalProjectTests</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			gkvVD+5iwjydCqqJA0PM/BcIbng=
+			mKcU7U+JkDK2U3lFwou2cZ2IbrQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			mS3tGWF0UiJHKMnWrbcDE8/jZ2rdcyIvnVtEUgLvvNE=
+			Z4gsI0RQl3DpOf1qZBkB3N6MEti1VLIXeGb9FVPNdIk=
 			</data>
 		</dict>
 	</dict>

@@ -18,6 +18,7 @@
     "preset": "react-native"
   },
   "dependencies": {
+    "arty-charty": "^1.0.4",
     "expo": "^26.0.0",
     "moment": "^2.22.1",
     "react": "^16.3.1",
@@ -27,6 +28,7 @@
     "react-native-camera": "^1.1.1",
     "react-native-linear-gradient": "^2.4.0",
     "react-native-snap-carousel": "^3.7.0",
+    "react-native-svg": "^6.3.1",
     "react-navigation": "^1.5.11"
   }
 }

@@ -7,6 +7,7 @@ import DrawerContainer from './src/components/DrawerContainer';
 import Journal from './src/components/Journal';
 import Camera from './src/components/Camera';
 import CalendarScreen from './src/components/CalendarScreen';
+import TrackHealthScreen from './src/components/TrackHealthScreen';
 
 console.disableYellowBox = true;
 
@@ -21,7 +22,8 @@ const DrawerStack = DrawerNavigator({
   CarouselView : { screen: HomeCarousel },
   JournalView : { screen: Journal },
   CameraView : { screen : Camera },
-  CalendarView : { screen : CalendarScreen }
+  CalendarView : { screen : CalendarScreen },
+  HealthView : { screen : TrackHealthScreen } 
 }, {
   gesturesEnabled: false,
   contentComponent: DrawerContainer
