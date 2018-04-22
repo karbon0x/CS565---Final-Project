@@ -14,7 +14,7 @@ export default class Login extends React.Component {
     return (
       // <LinearGradient colors={['#5C258D', '#4389A2']} style={styles.linearGradient}>
         <KeyboardAvoidingView behavior="padding" style={{flex:1}}>
-        <AnimatedLinearGradient customColors={presetColors.firefox} speed={4000}/>
+        <AnimatedLinearGradient customColors={presetColors.instagram} speed={4000}/>
 
         <View style={styles.logoContainer}>
           <Image

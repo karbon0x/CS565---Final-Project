@@ -1,31 +1,75 @@
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Button, Image, TouchableOpacity } from 'react-native';
 import Login from './src/components/Login';
-import Carousel from './src/components/Carousel';
-import { TabNavigator } from 'react-navigation';
+import HomeCarousel from './src/components/HomeCarousel';
+import { TabNavigator, DrawerNavigator, StackNavigator } from 'react-navigation';
+import DrawerContainer from './src/components/DrawerContainer';
+import Journal from './src/components/Journal';
+import Camera from './src/components/Camera';
+import CalendarScreen from './src/components/CalendarScreen';
+
+console.disableYellowBox = true;
 
 export default class App extends React.Component {
   render() {
-    return (
-      <RootStack />
-    );
+    return <PrimaryNav />;
   }
 }
 
-const RootStack = TabNavigator({
-  HomeView: { screen: Login },
-  CarouselView: { screen: Carousel },
-},
-  {
-   tabBarComponent: () => null,
-  }
-);
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+const DrawerStack = DrawerNavigator({
+  HomeView : { screen: Login },
+  CarouselView : { screen: HomeCarousel },
+  JournalView : { screen: Journal },
+  CameraView : { screen : Camera },
+  CalendarView : { screen : CalendarScreen }
+}, {
+  gesturesEnabled: false,
+  contentComponent: DrawerContainer
 });
+
+const RootStack = StackNavigator({
+  DrawerStack: { screen: DrawerStack },
+  }, {
+  headerMode: 'float',
+  navigationOptions: ({navigation}) => ({
+    title: '',
+    headerStyle: { marginTop: 1, backgroundColor: '#16222A' },
+    gesturesEnabled: false,
+    headerLeft: <TouchableOpacity onPress={() => {
+      if (navigation.state.index === 0) {
+        navigation.navigate('DrawerOpen')
+      } else {
+        navigation.navigate('DrawerClose')
+      }
+    }}>
+      <Image style={styles.buttonImage} source={require('./src/images/nav.png')} ></Image>
+    </TouchableOpacity>
+  })
+});
+
+const LoginStack = StackNavigator({
+  HomeView : { screen: Login },
+  // CarouselView : {screen: HomeCarousel }
+}, {
+    headerMode: 'none',
+    navigationOptions: {
+      headerStyle: 'none'
+    }
+  });
+  const PrimaryNav = StackNavigator({
+    loginStack: { screen: LoginStack },
+    drawerStack: { screen: RootStack }
+  }, {
+    // Default config for all screens
+    headerMode: 'none',
+    title: 'Welcome',
+    initialRouteName: 'loginStack',
+  })
+
+  const styles = StyleSheet.create({
+    buttonImage: {
+      height: 25,
+      width: 25,
+      marginLeft: 10
+    },
+  });
