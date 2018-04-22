@@ -1,3 +1,3 @@
 dependencies: \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/finalProject/main.m \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/finalProject/AppDelegate.h
+  /Users/twiganator/Desktop/CS565---Final-Project/ios/finalProject/main.m \
+  /Users/twiganator/Desktop/CS565---Final-Project/ios/finalProject/AppDelegate.h

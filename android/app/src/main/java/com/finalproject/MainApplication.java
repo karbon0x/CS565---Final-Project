@@ -3,9 +3,14 @@ package com.finalproject;
 import android.app.Application;
 
 import com.facebook.react.ReactApplication;
+<<<<<<< HEAD
 import com.oblador.vectoricons.VectorIconsPackage;
 import org.reactnative.camera.RNCameraPackage;
+=======
+>>>>>>> d77d4ae3968b70c96c118cc18ef98c252f792d60
 import com.BV.LinearGradient.LinearGradientPackage;
+import org.reactnative.camera.RNCameraPackage;
+import com.horcrux.svg.SvgPackage;
 import com.facebook.react.ReactNativeHost;
 import com.facebook.react.ReactPackage;
 import com.facebook.react.shell.MainReactPackage;
@@ -26,9 +31,13 @@ public class MainApplication extends Application implements ReactApplication {
     protected List<ReactPackage> getPackages() {
       return Arrays.<ReactPackage>asList(
           new MainReactPackage(),
+<<<<<<< HEAD
             new VectorIconsPackage(),
+=======
+            new LinearGradientPackage(),
+>>>>>>> d77d4ae3968b70c96c118cc18ef98c252f792d60
             new RNCameraPackage(),
-            new LinearGradientPackage()
+            new SvgPackage()
       );
     }
 

@@ -1,12 +1,12 @@
 dependencies: \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceView.mm \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceView.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceView+Internal.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurface.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/Surface/RCTSurfaceRootView.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTView.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTBorderStyle.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTComponent.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Views/RCTPointerEvents.h
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/Surface/RCTSurfaceView.mm \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/Surface/RCTSurfaceView.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/Surface/RCTSurfaceView+Internal.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/Surface/RCTSurfaceStage.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/Surface/RCTSurface.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/Surface/RCTSurfaceRootView.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Views/RCTView.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Views/RCTComponent.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Views/RCTPointerEvents.h

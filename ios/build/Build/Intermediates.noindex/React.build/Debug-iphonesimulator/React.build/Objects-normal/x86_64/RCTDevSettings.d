@@ -1,23 +1,23 @@
 dependencies: \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Modules/RCTDevSettings.mm \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Modules/RCTDevSettings.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTBridge.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTDefines.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTBridgeModule.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTFrameUpdate.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTInvalidating.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTBridge+Private.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTEventDispatcher.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTLog.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTAssert.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Base/RCTUtils.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Profiler/RCTProfile.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
-  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Modules/RCTDevSettings.mm \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Modules/RCTDevSettings.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JavaScriptCore.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/ios/build/Build/Products/Debug-iphonesimulator/include/jschelpers/JSCWrapper.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTBridge+Private.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTEventDispatcher.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Modules/RCTJSCSamplingProfiler.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Profiler/RCTProfile.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/DevSupport/RCTInspectorDevServerHelper.h \
+  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/React/Inspector/RCTInspectorPackagerConnection.h

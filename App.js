@@ -10,6 +10,7 @@ import CalendarScreen from './src/components/CalendarScreen';
 import Meditation from './src/components/Meditation';
 import Mindfulness from './src/components/Mindfulness';
 import FormContainer from './src/components/FormContainer';
+import TrackHealthScreen from './src/components/TrackHealthScreen';
 
 console.disableYellowBox = true;
 
@@ -27,8 +28,8 @@ const DrawerStack = DrawerNavigator({
   CalendarView : { screen : CalendarScreen },
   MeditationView : { screen : Meditation },
   MindfulnessView : { screen : Mindfulness },
-  FormView : { screen : FormContainer }
-
+  FormView : { screen : FormContainer },
+  HealthView : { screen : TrackHealthScreen }
 }, {
   gesturesEnabled: false,
   contentComponent: DrawerContainer
