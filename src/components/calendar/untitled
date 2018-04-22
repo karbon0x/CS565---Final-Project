@@ -1,0 +1,42 @@
+<FlatList data = {[{name: "cindy"}, {name:"john"}]}
+          keyExtractor = {(x,i) => i}
+          renderItem = {({ item }) => 
+          <Text>
+            {item.name}
+          </Text>}
+        />
+
+
+
+        // <FlatList data = {this.state.data}
+        //   keyExtractor = {(x,i) => i}
+        //   renderItem = {({ item }) => 
+        //   <Text>
+        //     {`${item.event.start}`}
+        //   </Text>}
+        // />
+
+
+
+                 // <List>
+         //    <ListItem avatar>
+         //      <Left>
+         //        <Thumbnail source={{ uri: 'https://resizing.flixster.com/Z2wwu1dCuCecg4TzOeJe82c_kjU=/740x290/v1.bjsxMDkyNjEyO2o7MTcxNTc7MTIwMDsyMDQ4OzEzNjM' }} />
+         //      </Left>
+         //      <Body>
+         //        <Text>Kumar Pratik</Text>
+         //        <Text note>Doing what you like will always keep you happy . .</Text>
+         //      </Body>
+         //      <Right>
+         //        <Text note>3:43 pm</Text>
+         //      </Right>
+         //    </ListItem>
+         //  </List>
+
+
+
+          // <ActionButton buttonColor="#8CA6DB">
+        //   <ActionButton.Item buttonColor='#9b59b6' title="New Task" onPress={() => console.log("notes tapped!")}>
+        //     <Icon name="md-create" style={styles.actionButtonIcon} />
+        //   </ActionButton.Item>
+        // </ActionButton>
