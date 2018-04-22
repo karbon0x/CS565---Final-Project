@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.m \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.m \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTMultiplicationAnimatedNode.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h

@@ -1,11 +1,11 @@
 dependencies: \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/ReactCommon/yoga/yoga/YGNodePrint.h
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.cpp \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/Yoga.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/YGEnums.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/YGMacros.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/Utils.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/YGNode.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/YGLayout.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/Yoga-internal.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/YGStyle.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/ReactCommon/yoga/yoga/YGNodePrint.h

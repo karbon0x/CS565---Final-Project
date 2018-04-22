@@ -10,9 +10,9 @@ export default class TrackHealthScreen extends React.Component {
 
   render() {
       return (
-      <LinearGradient colors={['#DE6262', '#FFB88C']} style={styles.linearGradient}>  
+      <LinearGradient colors={['#DE6262', '#FFB88C']} style={styles.linearGradient}>
         <View style={[styles.container, {flex:1, justifyContent: 'center', alignItems: 'center'}]}>
-          <Text style={{fontWeight: 100, fontSize: 20}}>Your daily macros</Text>
+          <Text style={{fontWeight: '100', fontSize: 20}}>Your daily macros</Text>
           <View style={styles.box}>
           <ArtyChartyPie
           data={{

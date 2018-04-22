@@ -1,5 +1,5 @@
 dependencies: \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.m \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
-  /Users/twiganator/Desktop/CS565---Final-Project/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.m \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegateAdapter.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/sanchayjaveria/Documents/UIUCcourses/CS565/finalProject/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h
