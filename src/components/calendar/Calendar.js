@@ -12,6 +12,16 @@ import type Moment from 'moment';
 import Icon from 'react-native-vector-icons/Ionicons';
 import ActionButton from 'react-native-action-button';
 
+import PopupDialog, {
+    DialogTitle,
+    DialogButton,
+    SlideAnimation,
+    ScaleAnimation,
+    FadeAnimation,
+  } from 'react-native-popup-dialog';
+
+
+
 type Props = {
   currentDate?: string | Moment,
   onSelectDate: (date: Moment) => any,
@@ -41,7 +51,7 @@ export default class Calendar extends PureComponent {
   state: State;
 
   static defaultProps = {
-   
+
     showDaysBeforeCurrent: 5,  // Show 5 days before the current day
 
     showDaysAfterCurrent: 5,     // And after
