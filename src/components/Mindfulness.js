@@ -29,6 +29,10 @@ export default class TimerView extends React.Component {
             style={styles.submit} onPress={() => this.props.navigation.navigate('MeditationView', {time : 30})}>
               <Text style={[styles.submitText]}>30 minutes</Text>
           </TouchableHighlight>
+          <TouchableHighlight
+            style={styles.submit} onPress={() => this.props.navigation.navigate('MeditationView', {time : 30})}>
+              <Text style={[styles.submitText]}>Custom time</Text>
+          </TouchableHighlight>
   			</View>
       </LinearGradient>
 		)

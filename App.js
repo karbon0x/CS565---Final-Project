@@ -11,6 +11,8 @@ import Meditation from './src/components/Meditation';
 import Mindfulness from './src/components/Mindfulness';
 import FormContainer from './src/components/FormContainer';
 import TrackHealthScreen from './src/components/TrackHealthScreen';
+import TrackHealth from './src/components/TrackHealth';
+import LoggerScreen from './src/components/LoggerScreen';
 
 console.disableYellowBox = true;
 
@@ -29,7 +31,9 @@ const DrawerStack = DrawerNavigator({
   MeditationView : { screen : Meditation },
   MindfulnessView : { screen : Mindfulness },
   FormView : { screen : FormContainer },
-  HealthView : { screen : TrackHealthScreen }
+  HealthView : { screen : TrackHealthScreen },
+  LoggerView : { screen : LoggerScreen },
+  TrackHealthView : { screen : TrackHealth }
 }, {
   gesturesEnabled: false,
   contentComponent: DrawerContainer
@@ -43,6 +47,7 @@ const RootStack = StackNavigator({
     title: '',
     headerStyle: { marginTop: 1, backgroundColor: '#16222A' },
     gesturesEnabled: false,
+    headerRight: <TouchableOpacity onPress={() => { navigation.navigate('HomeView')}}><Text style={{color: '#fff', marginRight: 10}}>Logout</Text></TouchableOpacity>,
     headerLeft: <TouchableOpacity onPress={() => {
       if (navigation.state.index === 0) {
         navigation.navigate('DrawerOpen')
@@ -50,7 +55,7 @@ const RootStack = StackNavigator({
         navigation.navigate('DrawerClose')
       }
     }}>
-      <Image style={styles.buttonImage} source={require('./src/images/nav.png')} ></Image>
+      <Image style={styles.buttonImage} source={require('./src/images/nav.jpg')} ></Image>
     </TouchableOpacity>
   })
 });
@@ -76,8 +81,8 @@ const LoginStack = StackNavigator({
 
   const styles = StyleSheet.create({
     buttonImage: {
-      height: 25,
-      width: 25,
+      height: 40,
+      width: 40,
       marginLeft: 10
     },
   });

@@ -57,6 +57,12 @@ export default class HomeCarousel extends React.Component {
     else if(title === "View progress") {
       this.props.navigation.navigate("HealthView")
     }
+    else if(title === "Logger") {
+      this.props.navigation.navigate("LoggerView")
+    }
+    else if(title === "Track health") {
+      this.props.navigation.navigate("TrackHealthView")
+    }
   }
 
   _renderItemWithParallax ({item, index}, parallaxProps) {

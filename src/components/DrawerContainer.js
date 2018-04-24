@@ -10,20 +10,44 @@ export default class DrawerContainer extends React.Component {
     return (
       <LinearGradient colors={['#16222A', '#3A6073']} style={styles.linearGradient}>
       <View style={styles.container}>
+        <Text style={styles.textStyle2}>
+          Streak: 3 days
+        </Text>
+        <Text></Text>
         <Text
           onPress={() => navigation.navigate('CarouselView')}
           style={styles.uglyDrawerItem}>
           Home
         </Text>
         <Text
-          onPress={() => navigation.navigate('login')}
+          onPress={() => navigation.navigate('CalendarView')}
           style={styles.uglyDrawerItem}>
-          Login
+          Calendar
         </Text>
         <Text
-          onPress={() => navigation.navigate('form')}
+          onPress={() => navigation.navigate('TrackHealthView')}
           style={styles.uglyDrawerItem}>
-          Login
+          Track health
+        </Text>
+        <Text
+          onPress={() => navigation.navigate('LoggerView')}
+          style={styles.uglyDrawerItem}>
+          Logger
+        </Text>
+        <Text
+          onPress={() => navigation.navigate('JournalView')}
+          style={styles.uglyDrawerItem}>
+          Journal
+        </Text>
+        <Text
+          onPress={() => navigation.navigate('HealthView')}
+          style={styles.uglyDrawerItem}>
+          Progress
+        </Text>
+        <Text
+          onPress={() => navigation.navigate('MindfulnessView')}
+          style={styles.uglyDrawerItem}>
+          Mindfulness
         </Text>
       </View>
     </LinearGradient>
@@ -39,12 +63,12 @@ const styles = StyleSheet.create({
   },
   uglyDrawerItem: {
     fontSize: 18,
-    fontWeight: 'bold',
-    color: '#E73536',
+    fontWeight: '100',
+    color: '#fff',
     padding: 5,
     margin: 5,
-    borderRadius: 2,
-    borderColor: '#E73536',
+    borderRadius: 10,
+    borderColor: '#fff',
     borderWidth: 1,
     textAlign: 'center'
   },
@@ -53,4 +77,10 @@ const styles = StyleSheet.create({
     paddingLeft: 15,
     paddingRight: 15,
   },
+  textStyle2: {
+    height: 40,
+    color: '#fff',
+    fontSize: 25,
+    fontWeight: '200'
+  }
 })

@@ -29,21 +29,39 @@ const list = [
 {
   start: moment("2018-04-21T10:00:00"),
   end: "12:00PM",
-  title: "get off your lazy ass and walk!!!!",
-  location: "Central Park"
+  title: "Workout session",
+  location: "ARC"
 },
 {
   start: moment("2018-04-21T11:30:00"),
   end: "12:00PM",
-  title: "get off your lazy ass and walk!!!!",
-  location: "Champaign"
+  title: "Eat protein bar",
+  location: "Home"
 },
 {
   start: moment("2018-04-21T04:00:00"),
   end: "12:00PM",
   title: "walk around to clear mind",
   location: "Japan House"
-}
+},
+{
+  start: moment("2018-04-21T06:00:00"),
+  end: "12:00PM",
+  title: "take a study break",
+  location: "Grainger"
+},
+{
+  start: moment("2018-04-21T08:00:00"),
+  end: "12:00PM",
+  title: "do yoga",
+  location: "home"
+},
+{
+  start: moment("2018-04-21T09:00:00"),
+  end: "12:00PM",
+  title: "eat dinner",
+  location: "home"
+},
 ];
 
 const FAKE_EVENTS: Array<EventType> = (() => {
@@ -89,7 +107,7 @@ export default class CalendarScreen extends React.Component {
           </ActionButton.Item>
         </ActionButton>
         <PopupDialog
-          dialogTitle={<DialogTitle title="Popup Dialog - Slide Animation" />}
+          dialogTitle={<DialogTitle title="New Event" />}
           ref={(popupDialog) => {
             this.slideAnimationDialog = popupDialog;
           }}
@@ -98,20 +116,40 @@ export default class CalendarScreen extends React.Component {
           <View style={styles.dialogContentView}>
           <Form>
             <Item fixedLabel>
-              <Label>Username</Label>
+              <Label>Task name</Label>
               <Input />
             </Item>
             <Item fixedLabel last>
-              <Label>Password</Label>
+              <Label>Location</Label>
               <Input />
                 </Item>
                 <Item fixedLabel last>
 <DatePicker
 style={{width: 200}}
-date={this.state.date}
 mode="date"
 placeholder="select date"
 format="YYYY-MM-DD"
+minDate="2010-05-01"
+maxDate="2030-06-01"
+confirmBtnText="Confirm"
+cancelBtnText="Cancel"
+customStyles={{
+dateIcon: {
+position: 'absolute',
+left: 0,
+top: 4,
+marginLeft: 0
+},
+dateInput: {
+marginLeft: 36
+}
+}}
+onDateChange={(date) => {this.setState({date: date})}}
+/>
+<DatePicker
+style={{width: 200}}
+mode="time"
+placeholder="select time"
 minDate="2010-05-01"
 maxDate="2030-06-01"
 confirmBtnText="Confirm"
@@ -135,7 +173,7 @@ onDateChange={(date) => {this.setState({date: date})}}
             <View style={styles.dialogButton}>
               <TouchableOpacity style = {styles.Button}
             onPress={this.showSlideAnimationDialog}>
-                  <Text style={styles.ButtonText}>Info</Text>
+                  <Text style={styles.ButtonText}>Add event</Text>
 
             </TouchableOpacity>
 
@@ -183,7 +221,7 @@ const styles = StyleSheet.create({
   Button: {
     alignItems: 'center',
 
-    backgroundColor: 'purple',
+    backgroundColor: 'rgb(210, 55, 410)',
     padding: 10,
     width: 100,
 
