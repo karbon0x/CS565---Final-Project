@@ -27,39 +27,51 @@ export type EventType = {
 
 const list = [
 {
-  start: moment("2018-04-21T10:00:00"),
+  start: moment("2018-04-26T10:00:00"),
   end: "12:00PM",
   title: "Workout session",
   location: "ARC"
 },
 {
-  start: moment("2018-04-21T11:30:00"),
+  start: moment("2018-04-26T11:30:00"),
   end: "12:00PM",
   title: "Eat protein bar",
   location: "Home"
 },
 {
-  start: moment("2018-04-21T04:00:00"),
+  start: moment("2018-04-26T04:00:00"),
   end: "12:00PM",
   title: "walk around to clear mind",
   location: "Japan House"
 },
 {
-  start: moment("2018-04-21T06:00:00"),
+  start: moment("2018-04-26T06:00:00"),
   end: "12:00PM",
   title: "take a study break",
   location: "Grainger"
 },
 {
-  start: moment("2018-04-21T08:00:00"),
+  start: moment("2018-04-26T08:00:00"),
   end: "12:00PM",
   title: "do yoga",
   location: "home"
 },
 {
-  start: moment("2018-04-21T09:00:00"),
+  start: moment("2018-04-26T20:10:00"),
   end: "12:00PM",
   title: "eat dinner",
+  location: "home"
+},
+{
+  start: moment("2018-04-25T17:30:00"),
+  end: "12:00PM",
+  title: "deadlift",
+  location: "ARC"
+},
+{
+  start: moment("2018-04-25T18:45:00"),
+  end: "12:00PM",
+  title: "Drink protein shake",
   location: "home"
 },
 ];
@@ -80,7 +92,7 @@ export default class CalendarScreen extends React.Component {
   state = {
     events: filterEvents(moment()),
     dialogShow: false,
-    date:"2018-04-25",
+    date:"2018-04-26",
   };
   showSlideAnimationDialog = () => {
     this.slideAnimationDialog.show();
@@ -130,6 +142,7 @@ mode="date"
 placeholder="select date"
 format="YYYY-MM-DD"
 minDate="2010-05-01"
+date={this.state.date}
 maxDate="2030-06-01"
 confirmBtnText="Confirm"
 cancelBtnText="Cancel"
@@ -165,7 +178,7 @@ dateInput: {
 marginLeft: 36
 }
 }}
-onDateChange={(date) => {this.setState({date: date})}}
+// onDateChange={(date) => {this.setState({date: date})}}
 />
 </Item>
               </Form>

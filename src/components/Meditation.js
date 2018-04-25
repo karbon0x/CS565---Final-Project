@@ -14,9 +14,29 @@ export default class Meditation extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            time: `00:${this.props.navigation.state.params.time}:00`,
+            seconds: this.props.navigation.state.params.time * 60,
+            flag: true,
             date: moment().format("LL")
         };
+    }
+
+    getMinutes = () => ('0' + Math.floor(parseInt(this.state.seconds)/60)).slice(-2);
+
+    getSeconds = () => ('0' + parseInt(this.state.seconds)%60).slice(-2);
+
+    ticker = () => {
+      let _this = this;
+      if(_this.state.flag === true) {
+        this.increment = setInterval(() => {
+          _this.setState({
+            seconds: _this.state.seconds - 1,
+            flag: !(_this.state.flag)
+          })
+        }, 1000);
+      } else {
+        clearInterval(this.increment);
+        this.setState({ flag: !this.state.flag });
+      }
     }
 
     render() {
@@ -25,9 +45,11 @@ export default class Meditation extends React.Component {
             <View style={styles.container}>
         <StatusBar style={{ backgroundColor: 'transparent' }} />
         <View style={styles.circle} >
-                <Text style={styles.timeText}>
-                    {this.state.time}
-                  </Text>
+          <TouchableOpacity onPress={this.ticker}>
+            <Text style={styles.timeText}>
+              00:{this.getMinutes()}:{this.getSeconds()}
+            </Text>
+          </TouchableOpacity>
         </View>
                 <Text style={styles.dateText}>
                     {this.state.date}

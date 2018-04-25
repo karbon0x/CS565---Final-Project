@@ -25,7 +25,7 @@ export default class Journal extends React.Component {
           <View style={styles.box}>
             <View style={styles.row}>
               <View style={styles.box}>
-                <Text style={styles.textStyle}>Step count for today: {"\n"}{"\n"}<Text style={styles.innerText}>5637</Text></Text>
+                <Text style={styles.textStyle}>Latest Checkpoint: {"\n"}{"\n"}<Text style={styles.innerText}>04/10/18</Text></Text>
               </View>
               <View style={styles.box}>
                 <Text style={styles.textStyle}>Weight gained: {"\n"}{"\n"}<Text style={styles.innerText}>15lbs</Text></Text>
